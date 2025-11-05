@@ -18,6 +18,7 @@ unsigned int transportujFlota(unsigned int towar)
         if (dynamic_cast<Zaglowiec*>(s1)!=nullptr) {
             n_zaglowiec++;
         }
+
         delete[] s1;
         if (licznik>=towar)
         {
